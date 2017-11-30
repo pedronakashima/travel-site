@@ -7,11 +7,11 @@ nested = require('postcss-nested'),
 cssImport = require('postcss-import');
 
 gulp.task('default', function() {
-    console.log("Hooray - you created a Gulp task.");
+    // console.log("Hooray - you created a Gulp task.");
 });
 
 gulp.task('html', function() {
-    console.log("Imagine something useful being done to your HTML here.");
+    // console.log("Imagine something useful being done to your HTML here.");
 });
 
 gulp.task('styles', function () {
