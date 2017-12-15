@@ -105,7 +105,7 @@ var Adult = function (_Person) {
     return Adult;
 }(_Person3.default);
 
-alert("ABC 321");
+alert("Pedro Massao Favaro Nakashima");
 
 var john = new _Person3.default("John Doe", "blue");
 john.greet();
@@ -124,7 +124,7 @@ $("h1").remove();
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -132,21 +132,21 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Person = function () {
-    function Person(fullName, favColor) {
-        _classCallCheck(this, Person);
+  function Person(fullName, favColor) {
+    _classCallCheck(this, Person);
 
-        this.name = fullName;
-        this.favoriteColor = favColor;
+    this.name = fullName;
+    this.favoriteColor = favColor;
+  }
+
+  _createClass(Person, [{
+    key: "greet",
+    value: function greet() {
+      console.log("Hi there, my name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");
     }
+  }]);
 
-    _createClass(Person, [{
-        key: "greet",
-        value: function greet() {
-            console.log("Hi there, my name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");
-        }
-    }]);
-
-    return Person;
+  return Person;
 }();
 
 exports.default = Person;

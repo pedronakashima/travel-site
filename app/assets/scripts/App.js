@@ -3,11 +3,11 @@ import Person from './modules/Person';
 
 class Adult extends Person {
     payTaxes() {
-        console.log(this.name + " now owes $0 in taxes.")
+        console.log(this.name + " now owes $0 in taxes.");
     }
 }
 
-alert("ABC 321");
+alert("Pedro Massao Favaro Nakashima");
 
 var john = new Person("John Doe", "blue");
 john.greet();
