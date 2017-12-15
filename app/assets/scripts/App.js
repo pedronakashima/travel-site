@@ -7,7 +7,7 @@ class Adult extends Person {
     }
 }
 
-alert("Pedro Massao Favaro Nakashima");
+alert("ABC 321");
 
 var john = new Person("John Doe", "blue");
 john.greet();

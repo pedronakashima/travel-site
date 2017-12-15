@@ -105,7 +105,7 @@ var Adult = function (_Person) {
     return Adult;
 }(_Person3.default);
 
-alert("Pedro Massao Favaro Nakashima");
+alert("ABC 321");
 
 var john = new _Person3.default("John Doe", "blue");
 john.greet();
